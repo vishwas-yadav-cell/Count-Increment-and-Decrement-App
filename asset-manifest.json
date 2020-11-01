@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Count-Increment-and-Decrement-App/static/css/main.9392238a.chunk.css",
+    "main.js": "/Count-Increment-and-Decrement-App/static/js/main.4b045f18.chunk.js",
+    "main.js.map": "/Count-Increment-and-Decrement-App/static/js/main.4b045f18.chunk.js.map",
+    "runtime-main.js": "/Count-Increment-and-Decrement-App/static/js/runtime-main.b9390ecf.js",
+    "runtime-main.js.map": "/Count-Increment-and-Decrement-App/static/js/runtime-main.b9390ecf.js.map",
+    "static/js/2.12285b5b.chunk.js": "/Count-Increment-and-Decrement-App/static/js/2.12285b5b.chunk.js",
+    "static/js/2.12285b5b.chunk.js.map": "/Count-Increment-and-Decrement-App/static/js/2.12285b5b.chunk.js.map",
+    "index.html": "/Count-Increment-and-Decrement-App/index.html",
+    "precache-manifest.5e0e8175378fe7a397b9f65f36cf23a3.js": "/Count-Increment-and-Decrement-App/precache-manifest.5e0e8175378fe7a397b9f65f36cf23a3.js",
+    "service-worker.js": "/Count-Increment-and-Decrement-App/service-worker.js",
+    "static/css/main.9392238a.chunk.css.map": "/Count-Increment-and-Decrement-App/static/css/main.9392238a.chunk.css.map",
+    "static/js/2.12285b5b.chunk.js.LICENSE.txt": "/Count-Increment-and-Decrement-App/static/js/2.12285b5b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9390ecf.js",
+    "static/js/2.12285b5b.chunk.js",
+    "static/css/main.9392238a.chunk.css",
+    "static/js/main.4b045f18.chunk.js"
+  ]
+}
