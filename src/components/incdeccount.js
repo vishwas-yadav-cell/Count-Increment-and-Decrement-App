@@ -7,11 +7,11 @@ import Tooltip from '@material-ui/core/Tooltip';
 export default function Incdeccount() {
     const [count, setCount] = useState(0);
 
-    const inCount = () => {
+    const incCount = () => {
         setCount(count + 1);
     }
 
-    const deCount = () => {
+    const decCount = () => {
         setCount(() => {
             if (count > 0) {
                 return count - 1;
@@ -31,10 +31,10 @@ export default function Incdeccount() {
                     <h1>{count}</h1>
                     <div className="button_div">
                         <Tooltip title="Increment">
-                            <Button style={{ border: '1px solid #1aa260', padding: '8px 40px' }} onClick={inCount} className="greenBtn btn"><AddCircleIcon /></Button>
+                            <Button style={{ border: '1px solid #1aa260', padding: '8px 40px' }} onClick={incCount} className="greenBtn btn"><AddCircleIcon /></Button>
                         </Tooltip>
                         <Tooltip title="Decrement">
-                            <Button style={{ marginLeft: '50px', border: '1px solid #DB4437', padding: '8px 40px' }} onClick={deCount} className="redBtn btn"><RemoveCircleIcon /></Button>
+                            <Button style={{ marginLeft: '50px', border: '1px solid #DB4437', padding: '8px 40px' }} onClick={decCount} className="redBtn btn"><RemoveCircleIcon /></Button>
                         </Tooltip>
                     </div>
                 </div>
